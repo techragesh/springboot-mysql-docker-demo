@@ -29,7 +29,7 @@ docker build . -t springboot-mysql-docker
 
 ![docker-showimage](docker-showimage.png)
 
-* Step 4: Create docker container for springboot along with the mysql link
+* Step 4: Create docker container for springboot along with the mysql image
 
 ```
 docker run -p 8086:8086 --name springboot-mysql-docker --link mysql-standalone:mysql -d springboot-mysql-docker
